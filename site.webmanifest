@@ -1,0 +1,14 @@
+{
+  "name": "Latter-day Saint Restoration Documents",
+  "short_name": "Restoration Docs",
+  "description": "Transcriptions of original Restoration texts in Markdown and plain text.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#faf6ee",
+  "theme_color": "#2a2118",
+  "icons": [
+    {"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
