@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Latter-day Saint Restoration Documents</title>
+<meta name="description" content="AI-assisted transcriptions of original Latter-day Saint texts — early editions of the Book of Mormon, the Book of Commandments, and the Phinney Bible — in Markdown and plain text.">
+<meta property="og:title" content="Latter-day Saint Restoration Documents">
+<meta property="og:description" content="Transcriptions of original Restoration texts in Markdown and plain text, readable by people and by AI.">
+<meta property="og:image" content="1830-Book-of-Mormon-page-transcription.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf6ee;--surface:#fffdf8;--ink:#2a2118;--muted:#6e6253;--line:#e6dcc8;--accent:#8a3b1f;--accent-soft:#f3e4d6;--hero:#2a2118;--hero-ink:#f5ecd9;--shadow:0 1px 2px rgba(60,40,10,.06),0 8px 24px rgba(60,40,10,.07);--serif:"Cormorant Garamond",Georgia,serif;--sans:Inter,system-ui,-apple-system,sans-serif}
+@media(prefers-color-scheme:dark){:root{--bg:#17130e;--surface:#1f1a13;--ink:#efe6d4;--muted:#a69a85;--line:#352d21;--accent:#e0956b;--accent-soft:#33261b;--hero:#0f0c08;--hero-ink:#f5ecd9;--shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+nav .brand{font:600 20px var(--serif);color:var(--ink)}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;font-size:14px;font-weight:500}
+nav ul a{color:var(--muted)}nav ul a:hover{color:var(--accent);text-decoration:none}
+.hero{background:var(--hero);color:var(--hero-ink);padding:84px 0 96px;background-image:radial-gradient(900px 400px at 85% 0%,rgba(224,149,107,.18),transparent 70%)}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:52px;align-items:center}
+.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#e0956b;font-weight:600}
+h1{font:600 clamp(38px,5.4vw,60px)/1.05 var(--serif);margin:14px 0 20px;letter-spacing:-.01em}
+.hero p{font-size:19px;color:#d9ccb3;margin:0 0 28px;max-width:34em}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 22px;border-radius:999px;font-weight:600;font-size:15px}
+.btn.primary{background:#e0956b;color:#1a1008}.btn.primary:hover{background:#eba682;text-decoration:none}
+.btn.ghost{border:1px solid rgba(245,236,217,.35);color:var(--hero-ink)}.btn.ghost:hover{background:rgba(255,255,255,.08);text-decoration:none}
+.shot{border-radius:10px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.45);border:1px solid rgba(255,255,255,.12)}
+.shot img{display:block;width:100%;height:auto}
+.stats{display:flex;gap:36px;margin-top:40px;flex-wrap:wrap}
+.stats b{display:block;font:600 36px var(--serif);color:#f5ecd9;line-height:1}
+.stats span{font-size:13px;color:#b9ab91}
+section{padding:72px 0}
+section.alt{background:var(--surface);border-block:1px solid var(--line)}
+h2{font:600 clamp(30px,4vw,42px)/1.15 var(--serif);margin:0 0 12px;letter-spacing:-.01em}
+.lead{color:var(--muted);max-width:42em;margin:0 0 36px;font-size:18px}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.feature{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:26px}
+section.alt .feature{background:var(--bg)}
+.feature .n{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--accent-soft);color:var(--accent);font:700 16px var(--serif);margin-bottom:12px}
+.feature h3{font:600 23px var(--serif);margin:0 0 6px}
+.feature p{margin:0;color:var(--muted);font-size:15.5px}
+.group{margin-top:36px}
+.gh{font:600 13px var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:18px}
+.card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:transform .18s,border-color .18s}
+.card:hover{transform:translateY(-3px);border-color:var(--accent)}
+.year{font:700 44px/1 var(--serif);color:var(--accent);margin-bottom:6px}
+.card h3{font:600 22px/1.2 var(--serif);margin:0}
+.card h3 a{color:var(--ink)}
+.sub{margin:2px 0 16px;color:var(--muted);font-size:14.5px}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:18px}
+.chips a{font-size:12.5px;font-weight:500;padding:4px 11px;border-radius:999px;background:var(--accent-soft);color:var(--accent);border:1px solid transparent}
+.chips a:hover{border-color:var(--accent);text-decoration:none}
+.flist{list-style:none;margin:0 0 18px;padding:0;display:flex;flex-direction:column;gap:2px}
+.flist li{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;line-height:1.7;overflow-wrap:anywhere}
+.flist li::before{content:"› ";color:var(--muted)}
+.flist a{color:var(--accent)}
+.repo{margin-top:auto;font-size:14px;font-weight:600}
+.files{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 28px;margin:0;padding:0;list-style:none}
+.files li{padding:16px 18px;background:var(--bg);border:1px solid var(--line);border-radius:12px;font-size:15.5px}
+.files code{font-size:13px}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--accent-soft);color:var(--accent);padding:2px 6px;border-radius:5px;font-size:.88em}
+.note{font-size:14.5px;color:var(--muted);margin-top:22px}
+footer{padding:44px 0 56px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+footer p{margin:0;max-width:44em}
+@media(max-width:820px){nav ul li:last-child{display:block}.hero .wrap{grid-template-columns:1fr}.features{grid-template-columns:1fr}.files{grid-template-columns:1fr}nav ul li:not(:last-child){display:none}.hero{padding:56px 0 64px}section{padding:52px 0}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><a class="brand" href="#">LDS Restoration Documents</a>
+<ul><li><a href="#texts">Texts</a></li><li><a href="#method">Method</a></li><li><a href="#files">Files</a></li><li><a href="#markdown">Markdown</a></li><li><a href="https://github.com/lds-restoration-documents">GitHub</a></li></ul></div></nav>
+
+<header class="hero"><div class="wrap">
+<div>
+<div class="eyebrow">Open transcriptions · Markdown &amp; plain text</div>
+<h1>Latter-day Saint Restoration Documents</h1>
+<p>Original texts from the history of The Church of Jesus Christ of Latter-day Saints, transcribed page by page with AI into clean, open formats that are readable by people, databases, and AI alike. Featuring five early editions of <a href="#book-of-mormon" style="color:#e0956b;text-decoration:underline"><em>The Book of Mormon</em></a> (1830–1852), plus the 1833 <em>Book of Commandments</em> and the 1828 <em>Phinney Bible</em>.</p>
+<div class="btns"><a class="btn primary" href="#texts">Browse the texts</a><a class="btn ghost" href="https://github.com/lds-restoration-documents">View on GitHub</a></div>
+<div class="stats"><div><b>7</b><span>transcribed editions</span></div><div><b>1828–1852</b><span>publication span</span></div><div><b>MD + TXT</b><span>open formats</span></div></div>
+</div>
+<div class="shot"><img src="1830-Book-of-Mormon-page-transcription.png" alt="A page from the 1830 edition of The Book of Mormon beside its Markdown and plain text transcriptions"></div>
+</div></header>
+
+<section id="why"><div class="wrap">
+<h2>Why Markdown and plain text?</h2>
+<p class="lead">Transcribing images of original documents into text makes them searchable, quotable, and ready for use with modern tools.</p>
+<div class="features">
+<div class="feature"><div class="n">1</div><h3>Easily converted</h3><p>Markdown converts readily to HTML, PDF, Word, EPUB, images, or JSON.</p></div>
+<div class="feature"><div class="n">2</div><h3>Ready for AI</h3><p>AI is especially good at reading and analyzing Markdown, so these texts are immediately usable in AI workflows.</p></div>
+<div class="feature"><div class="n">3</div><h3>Universally readable</h3><p>Plain text works on any system and imports cleanly into databases and analysis tools.</p></div>
+</div></div></section>
+
+<section id="texts" class="alt"><div class="wrap">
+<h2>Currently available texts</h2>
+<p class="lead">Each edition lives in its own repository, with page-by-page transcriptions, combined files, the generated tools, and all AI documentation. More texts will be added over time.</p>
+<div class="group" id="book-of-mormon"><h3 class="gh">The Book of Mormon editions</h3><div class="grid"><article class="card"><div class="year">1830</div><h3><a href="https://github.com/lds-restoration-documents/1830-grandin-palmyra-book-of-mormon">The Book of Mormon</a></h3><p class="sub">Grandin · Palmyra</p><ul class="flist"><li><a href="https://github.com/lds-restoration-documents/1830-grandin-palmyra-book-of-mormon/blob/main/book-of-mormon-1830-pages">book-of-mormon-1830-pages/</a></li><li><a href="https://github.com/lds-restoration-documents/1830-grandin-palmyra-book-of-mormon/blob/main/book-of-mormon-1830.md">book-of-mormon-1830.md</a></li><li><a href="https://github.com/lds-restoration-documents/1830-grandin-palmyra-book-of-mormon/blob/main/book-of-mormon-1830.txt">book-of-mormon-1830.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1830-grandin-palmyra-book-of-mormon/blob/main/book-of-mormon-1830-sparse.txt">book-of-mormon-1830-sparse.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1830-grandin-palmyra-book-of-mormon/blob/main/printer-typos.md">printer-typos.md</a></li></ul><a class="repo" href="https://github.com/lds-restoration-documents/1830-grandin-palmyra-book-of-mormon">View repository →</a></article><article class="card"><div class="year">1837</div><h3><a href="https://github.com/lds-restoration-documents/1837-pratt-goodson-kirtland-book-of-mormon">The Book of Mormon</a></h3><p class="sub">Pratt & Goodson · Kirtland</p><ul class="flist"><li><a href="https://github.com/lds-restoration-documents/1837-pratt-goodson-kirtland-book-of-mormon/blob/main/book-of-mormon-1837-pages">book-of-mormon-1837-pages/</a></li><li><a href="https://github.com/lds-restoration-documents/1837-pratt-goodson-kirtland-book-of-mormon/blob/main/book-of-mormon-1837.md">book-of-mormon-1837.md</a></li><li><a href="https://github.com/lds-restoration-documents/1837-pratt-goodson-kirtland-book-of-mormon/blob/main/book-of-mormon-1837.txt">book-of-mormon-1837.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1837-pratt-goodson-kirtland-book-of-mormon/blob/main/book-of-mormon-1837-sparse.txt">book-of-mormon-1837-sparse.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1837-pratt-goodson-kirtland-book-of-mormon/blob/main/printer-typos.md">printer-typos.md</a></li></ul><a class="repo" href="https://github.com/lds-restoration-documents/1837-pratt-goodson-kirtland-book-of-mormon">View repository →</a></article><article class="card"><div class="year">1840</div><h3><a href="https://github.com/lds-restoration-documents/1840-robinson-smith-nauvoo-book-of-mormon">The Book of Mormon</a></h3><p class="sub">Robinson & Smith · Nauvoo</p><ul class="flist"><li><a href="https://github.com/lds-restoration-documents/1840-robinson-smith-nauvoo-book-of-mormon/blob/main/book-of-mormon-1840-pages">book-of-mormon-1840-pages/</a></li><li><a href="https://github.com/lds-restoration-documents/1840-robinson-smith-nauvoo-book-of-mormon/blob/main/book-of-mormon-1840.md">book-of-mormon-1840.md</a></li><li><a href="https://github.com/lds-restoration-documents/1840-robinson-smith-nauvoo-book-of-mormon/blob/main/book-of-mormon-1840.txt">book-of-mormon-1840.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1840-robinson-smith-nauvoo-book-of-mormon/blob/main/book-of-mormon-1840-sparse.txt">book-of-mormon-1840-sparse.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1840-robinson-smith-nauvoo-book-of-mormon/blob/main/printer-typos.md">printer-typos.md</a></li></ul><a class="repo" href="https://github.com/lds-restoration-documents/1840-robinson-smith-nauvoo-book-of-mormon">View repository →</a></article><article class="card"><div class="year">1841</div><h3><a href="https://github.com/lds-restoration-documents/1841-young-kimball-pratt-liverpool-book-of-mormon">The Book of Mormon</a></h3><p class="sub">Young, Kimball & Pratt · Liverpool</p><ul class="flist"><li><a href="https://github.com/lds-restoration-documents/1841-young-kimball-pratt-liverpool-book-of-mormon/blob/main/book-of-mormon-1841-pages">book-of-mormon-1841-pages/</a></li><li><a href="https://github.com/lds-restoration-documents/1841-young-kimball-pratt-liverpool-book-of-mormon/blob/main/book-of-mormon-1841.md">book-of-mormon-1841.md</a></li><li><a href="https://github.com/lds-restoration-documents/1841-young-kimball-pratt-liverpool-book-of-mormon/blob/main/book-of-mormon-1841.txt">book-of-mormon-1841.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1841-young-kimball-pratt-liverpool-book-of-mormon/blob/main/book-of-mormon-1841-sparse.txt">book-of-mormon-1841-sparse.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1841-young-kimball-pratt-liverpool-book-of-mormon/blob/main/printer-typos.md">printer-typos.md</a></li></ul><a class="repo" href="https://github.com/lds-restoration-documents/1841-young-kimball-pratt-liverpool-book-of-mormon">View repository →</a></article><article class="card"><div class="year">1852</div><h3><a href="https://github.com/lds-restoration-documents/1852-richards-liverpool-book-of-mormon">The Book of Mormon</a></h3><p class="sub">Richards · Liverpool</p><ul class="flist"><li><a href="https://github.com/lds-restoration-documents/1852-richards-liverpool-book-of-mormon/tree/main/book-of-mormon-1852-pages">book-of-mormon-1852-pages/</a></li><li><a href="https://github.com/lds-restoration-documents/1852-richards-liverpool-book-of-mormon/blob/main/book-of-mormon-1852.md">book-of-mormon-1852.md</a></li><li><a href="https://github.com/lds-restoration-documents/1852-richards-liverpool-book-of-mormon/blob/main/book-of-mormon-1852.txt">book-of-mormon-1852.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1852-richards-liverpool-book-of-mormon/blob/main/book-of-mormon-1852-sparse.txt">book-of-mormon-1852-sparse.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1852-richards-liverpool-book-of-mormon/blob/main/book-of-mormon-1852-sparse-verses.txt">book-of-mormon-1852-sparse-verses.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1852-richards-liverpool-book-of-mormon/blob/main/printer-typos.md">printer-typos.md</a></li></ul><a class="repo" href="https://github.com/lds-restoration-documents/1852-richards-liverpool-book-of-mormon">View repository →</a></article></div></div>
+<div class="group"><h3 class="gh">Book of Commandments</h3><div class="grid"><article class="card"><div class="year">1833</div><h3><a href="https://github.com/lds-restoration-documents/1833-phelps-zion-book-of-commandments">Book of Commandments</a></h3><p class="sub">Phelps · Zion</p><ul class="flist"><li><a href="https://github.com/lds-restoration-documents/1833-phelps-zion-book-of-commandments/blob/main/book-of-commandments-1833-pages">book-of-commandments-1833-pages/</a></li><li><a href="https://github.com/lds-restoration-documents/1833-phelps-zion-book-of-commandments/blob/main/book-of-commandments-1833.md">book-of-commandments-1833.md</a></li><li><a href="https://github.com/lds-restoration-documents/1833-phelps-zion-book-of-commandments/blob/main/book-of-commandments-1833.txt">book-of-commandments-1833.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1833-phelps-zion-book-of-commandments/blob/main/book-of-commandments-1833-sparse.txt">book-of-commandments-1833-sparse.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1833-phelps-zion-book-of-commandments/blob/main/printer-typos.md">printer-typos.md</a></li></ul><a class="repo" href="https://github.com/lds-restoration-documents/1833-phelps-zion-book-of-commandments">View repository →</a></article></div></div>
+<div class="group"><h3 class="gh">Bible</h3><div class="grid"><article class="card"><div class="year">1828</div><h3><a href="https://github.com/lds-restoration-documents/1828-phinney-cooperstown-bible">Phinney Cooperstown Bible</a></h3><p class="sub">Phinney · Cooperstown</p><ul class="flist"><li><a href="https://github.com/lds-restoration-documents/1828-phinney-cooperstown-bible/blob/main/phinney-bible-pages">phinney-bible-pages/</a></li><li><a href="https://github.com/lds-restoration-documents/1828-phinney-cooperstown-bible/blob/main/phinney-bible-1828.md">phinney-bible-1828.md</a></li><li><a href="https://github.com/lds-restoration-documents/1828-phinney-cooperstown-bible/blob/main/phinney-bible-1828.txt">phinney-bible-1828.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1828-phinney-cooperstown-bible/blob/main/phinney-bible-1828-sparse.txt">phinney-bible-1828-sparse.txt</a></li><li><a href="https://github.com/lds-restoration-documents/1828-phinney-cooperstown-bible/blob/main/printer-typos.md">printer-typos.md</a></li></ul><a class="repo" href="https://github.com/lds-restoration-documents/1828-phinney-cooperstown-bible">View repository →</a></article></div></div>
+</div></section>
+
+<section id="method"><div class="wrap">
+<h2>AI transcription method</h2>
+<p class="lead">Every page is examined closely, then checked independently.</p>
+<div class="features">
+<div class="feature"><div class="n">1</div><h3>Careful reading</h3><p>AI analyzes each page image, using code and image tools to zoom in and out on words, letters, and punctuation. Each page becomes its own Markdown file, with comments noting page features and uncertain readings.</p></div>
+<div class="feature"><div class="n">2</div><h3>Cross-checking</h3><p>Results are compared with OCR extractions of the same text to catch discrepancies.</p></div>
+<div class="feature"><div class="n">3</div><h3>Blind proofreading</h3><p>A separate agent proofreads each file blindly against the original image, flagging discrepancies and ambiguities.</p></div>
+</div>
+<p class="note">Project tooling: <em>Claude Code</em> by Anthropic, with the <em>Sonnet 5.5</em> model at <em>Medium</em> effort. All generated Python tools and AI documentation are included in each text's repository.</p>
+</div></section>
+
+<section id="files" class="alt"><div class="wrap">
+<h2>What you get</h2>
+<p class="lead">Once the per-page Markdown files exist, code generates these outputs for each text.</p>
+<ul class="files">
+<li><strong>Whole text, Markdown</strong><br>The complete text in a single <code>.md</code> file.</li>
+<li><strong>Whole text, plain text</strong><br>The complete text in a single <code>.txt</code> file.</li>
+<li><strong>Sparse text</strong><br>Just the core text, excluding frontmatter and similar material (<code>-sparse.txt</code>).</li>
+<li><strong>Printer typos</strong><br>A Markdown catalog of printer's typos and errors that AI can identify (<code>printer-typos.md</code>).</li>
+</ul></div></section>
+
+<section id="markdown"><div class="wrap">
+<h2>What is Markdown?</h2>
+<p class="lead">Markdown is a simple way of writing formatted text using plain characters, such as <code>#</code> for headings and <code>*asterisks*</code> for <em>italics</em>. A Markdown file is still readable as ordinary text, and can also be displayed with formatting.</p>
+<div class="btns"><a class="btn primary" style="color:#fff;background:var(--accent)" href="https://markdown.org/">Learn more at markdown.org</a><a class="btn ghost" style="border-color:var(--line);color:var(--accent)" href="https://markdown.org/tools/">Markdown tools</a></div>
+</div></section>
+
+<footer><div class="wrap">
+<p><strong>Disclaimer.</strong> This is an individual personal project and is not officially affiliated with <a href="https://www.churchofjesuschrist.org/">The Church of Jesus Christ of Latter-day Saints</a>.</p>
+<p><a href="https://github.com/lds-restoration-documents">github.com/lds-restoration-documents</a></p>
+</div></footer>
+</body>
+</html>
