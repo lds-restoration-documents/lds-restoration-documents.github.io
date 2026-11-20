@@ -10,7 +10,7 @@ AI is also especially good at reading and analyzing [Markdown](#what-is-markdown
 
 The plain text files are readable by any system and are useful for importing into databases or analyzing with other tools that just need the text without any formatting.
 
-[Currently available transcriptions](#currently-available-texts) include early editions of _The Book of Mormon_, the 1833 _Book of Commandments_, and the 1828 _Phinney Cooperstown Bible_. Additional texts will be added over time. 
+[Currently available transcriptions](#currently-available-texts) include the 1829 _Printer's Manuscript_ of _The Book of Mormon_, early editions of _The Book of Mormon_, the 1833 _Book of Commandments_, and the 1828 _Phinney Cooperstown Bible_. Additional texts will be added over time. 
 
 For AI, the project has used _Claude Code_ by Anthropic, with the _Sonnet 5.5_ Model, configured with _Medium_ effort.
 
@@ -29,6 +29,21 @@ Once the [Markdown](#what-is-markdown) files for each page have been created, th
 ## Currently Available Texts
 
 ### Book of Mormon Editions
+
+* [1829 Printer's Manuscript of The Book of Mormon](https://github.com/lds-restoration-documents/1829-cowdery-smith-book-of-mormon-printers-manuscript)
+  * [Transcribed Pages](https://github.com/lds-restoration-documents/1829-cowdery-smith-book-of-mormon-printers-manuscript/blob/main/book-of-mormon-printers-manuscript-pages)
+  * Printer's Manuscript with Scribal Corrections
+    * [printers-manuscript-scribal-corrections.md](https://github.com/lds-restoration-documents/1829-cowdery-smith-book-of-mormon-printers-manuscript/blob/main/printers-manuscript-scribal-corrections.md)
+    * [printers-manuscript-scribal-corrections.txt](https://github.com/lds-restoration-documents/1829-cowdery-smith-book-of-mormon-printers-manuscript/blob/main/printers-manuscript-scribal-corrections.txt)
+    * [printers-manuscript-scribal-corrections-sparse.txt](https://github.com/lds-restoration-documents/1829-cowdery-smith-book-of-mormon-printers-manuscript/blob/main/printers-manuscript-scribal-corrections-sparse.txt)
+  * Printer's Manuscript with Scribal Corrections + Compositor Marks
+    * [printers-manuscript-compositor-marks.md](https://github.com/lds-restoration-documents/1829-cowdery-smith-book-of-mormon-printers-manuscript/blob/main/printers-manuscript-compositor-marks.md)
+    * [printers-manuscript-compositor-marks.txt](https://github.com/lds-restoration-documents/1829-cowdery-smith-book-of-mormon-printers-manuscript/blob/main/printers-manuscript-compositor-marks.txt)
+    * [printers-manuscript-compositor-marks-sparse.txt](https://github.com/lds-restoration-documents/1829-cowdery-smith-book-of-mormon-printers-manuscript/blob/main/printers-manuscript-compositor-marks-sparse.txt)
+  * Printer's Manuscript with Scribal Corrections + Compositor Marks + 1837 Emendations
+    * [printers-manuscript-1837-emendations.md](https://github.com/lds-restoration-documents/1829-cowdery-smith-book-of-mormon-printers-manuscript/blob/main/printers-manuscript-1837-emendations.md)
+    * [printers-manuscript-1837-emendations.txt](https://github.com/lds-restoration-documents/1829-cowdery-smith-book-of-mormon-printers-manuscript/blob/main/printers-manuscript-1837-emendations.txt)
+    * [printers-manuscript-1837-emendations-sparse.txt](https://github.com/lds-restoration-documents/1829-cowdery-smith-book-of-mormon-printers-manuscript/blob/main/printers-manuscript-1837-emendations-sparse.txt)
 
 * [1830 Edition of The Book of Mormon](https://github.com/lds-restoration-documents/1830-grandin-palmyra-book-of-mormon)
   * [Transcribed Pages](https://github.com/lds-restoration-documents/1830-grandin-palmyra-book-of-mormon/blob/main/book-of-mormon-1830-pages)
